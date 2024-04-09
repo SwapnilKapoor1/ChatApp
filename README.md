@@ -16,3 +16,10 @@ Online User Presence: Stay connected with friends and colleagues by viewing the 
 Typing Indicators: Enhance your chat experience with typing indicators, which let you know when other users are composing a message. Stay informed and engaged, even before the message is sent.
 
 Cross-platform Compatibility: Access our Chat Application from any device, whether you're using a desktop computer, laptop, smartphone, or tablet. Enjoy seamless connectivity across multiple platforms for added convenience.
+
+Connection Setup:
+1. Clone the repository to local file.
+2. Install the dependencies.
+3. Create your local environment file as per the sample .env file provided.
+4. Execute the node server.js command to start the server.
+5. Open the Index.html file to run the application.
