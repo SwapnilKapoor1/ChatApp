@@ -17,7 +17,7 @@ Typing Indicators: Enhance your chat experience with typing indicators, which le
 
 Cross-platform Compatibility: Access our Chat Application from any device, whether you're using a desktop computer, laptop, smartphone, or tablet. Enjoy seamless connectivity across multiple platforms for added convenience.
 
-Connection Setup:
+**Connection Setup:**
 1. Clone the repository to local file.
 2. Install the dependencies.
 3. Create your local environment file as per the sample .env file provided.
