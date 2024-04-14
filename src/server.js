@@ -7,7 +7,7 @@ import cors from 'cors';
 import { messageModel } from '../model/message.schema.js';
 import { connectToDatabase } from '../config/db.config.js';
 import { UserModel } from '../model/users.schema.js';
-
+const {PORT}=process.env||3500;
 export const app = express();
 app.use(cors());
 
@@ -111,7 +111,7 @@ socket.on("connect", () => {
     
 });
 
-server.listen(3000, () => {
+server.listen(PORT, () => {
     console.log("Listening on port 3000");
     connectToDatabase();
 });
