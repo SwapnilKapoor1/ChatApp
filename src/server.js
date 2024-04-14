@@ -111,7 +111,7 @@ socket.on("connect", () => {
     
 });
 
-server.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}`);
+server.listen(3000, () => {
+    console.log(`Listening on port 3000`);
     connectToDatabase();
 });
