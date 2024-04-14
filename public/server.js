@@ -10,7 +10,7 @@ import { UserModel } from '../model/users.schema.js';
 
 export const app = express();
 app.use(cors());
-
+app.use(express.static('public'));
 export const server = http.createServer(app);
 
 const io = new Server(server, {

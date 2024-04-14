@@ -1,5 +1,5 @@
 // connecting to socket library running at http://localhost:3000
-const socket = io.connect("http://localhost:3000/");
+const socket = io.connect("https://chatapp-8xig.onrender.com/");
 
 // initializing dom elements
 const userLoggedInNameSpan = document.getElementById("userNameSpan");
