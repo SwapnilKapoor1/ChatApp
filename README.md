@@ -23,3 +23,4 @@ Cross-platform Compatibility: Access our Chat Application from any device, wheth
 3. Create your local environment file as per the sample .env file provided.
 4. Execute the node server.js command to start the server.
 5. Open the Index.html file to run the application.
+6. Please change the URL in index.js and server.js as per your system.
