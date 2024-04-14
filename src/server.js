@@ -4,9 +4,9 @@ import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
 import cors from 'cors';
-import { messageModel } from './message.schema.js';
-import { connectToDatabase } from './db.config.js';
-import { UserModel } from './users.schema.js';
+import { messageModel } from '../model/message.schema.js';
+import { connectToDatabase } from '../config/db.config.js';
+import { UserModel } from '../model/users.schema.js';
 
 export const app = express();
 app.use(cors());
